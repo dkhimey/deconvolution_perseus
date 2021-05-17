@@ -2,7 +2,7 @@
 
 ## Jupyter Notebook Files:
 
-    ### 0. Producing IC 348 and NGC 1333 Datasets
+- ### 0. IC 348 and NGC 1333 Datasets
     Applying various cuts to initial dataset to obtain the NGC 1333 and IC 348 star data.
 
 - ### 1. Rotational Velocity Deconvolution
@@ -11,7 +11,7 @@
 - ### 2. Full Deconvolution
     Running the deconvolution dataset on the x, y, z coordinates and u, v, w velocities for each cluster. Exported results used in notebook #3.
 
-- ### 3. Gas Mass Clippings
+- ### 3. Cluster Dust Clippings
     Creating 1-sigma ellipses around each cluster using coordinates found in notebook #2. Clipping the Perseus dust data to produce datasets containing dust in only IC 348 and NGC 1333.
 
 - ### 4. Dispersion and Virial Theorem Calculations
@@ -23,7 +23,7 @@
     Original dataset containing stars from [Kounkel et al. 2019](https://ui.adsabs.harvard.edu/abs/2019AJ....157..196K/abstract), cross matched with stars from the Gaia EDR3 survey.
 
 - ### perseus_3d_cutout.fits
-    Original Perseus dust data from [CITATION].
+    Original Perseus dust data from [CITATION]().
 
 - ### ic348_kounkel_mask.fits / ngc1333_kounkel_mask.fits
     Masks produced using the [glue](http://docs.glueviz.org/en/stable/). The full star dataset was overlayed on the perseus dust data and the stars in the group around each cluster were selected. These data sets were used to produce the individual IC 348 and NGC 1333 datasets in notebook #0.
@@ -38,4 +38,4 @@
     Masks for the Perseus dust data that include the dust around the IC 348 and NGC 1333 clusters. Produced and used in notebook #3.
 
 - ### perseus_ic348_only.fits / perseus_ngc1333_only.fits
-    Dust data, obtained from the full Persus dust dataset, containing only the dust surrounding IC 348 and NGC 1333. Produced and used in notebook #3.
+    Dust data, obtained from the full Persus dust dataset, containing only the dust surrounding IC 348 and NGC 1333. Produced in notebook #3 and used notebook #4.
