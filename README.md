@@ -2,10 +2,10 @@
 
 ## Jupyter Notebook Files:
 
-### 0. Producing IC 348 and NGC 1333 Datasets
+    ### 0. Producing IC 348 and NGC 1333 Datasets
     Applying various cuts to initial dataset to obtain the NGC 1333 and IC 348 star data.
 
-###     1. Rotational Velocity Deconvolution
+- ### 1. Rotational Velocity Deconvolution
     Comparing results to rotational velocity findings of IN-SYNC by [Foster et al. 2015](https://ui.adsabs.harvard.edu/abs/2015ApJ...799..136F/abstract) and [Cottaar et al. 2015](https://ui.adsabs.harvard.edu/abs/2015ApJ...807...27C/abstract) using the [extreme deconvolution algorithm](https://www.astroml.org/book_figures/chapter6/fig_XD_example.html).
 
 - ### 2. Full Deconvolution
