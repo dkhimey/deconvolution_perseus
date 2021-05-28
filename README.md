@@ -5,7 +5,7 @@
 - ### 0. IC 348 and NGC 1333 Datasets
     Applying various cuts to initial dataset to obtain the NGC 1333 and IC 348 star data.
 
-- ### 1. Rotational Velocity Deconvolution
+- ### 1. Radial Velocity Deconvolution
     Comparing results to rotational velocity findings of IN-SYNC by [Foster et al. 2015](https://ui.adsabs.harvard.edu/abs/2015ApJ...799..136F/abstract) and [Cottaar et al. 2015](https://ui.adsabs.harvard.edu/abs/2015ApJ...807...27C/abstract) using the [extreme deconvolution algorithm](https://www.astroml.org/book_figures/chapter6/fig_XD_example.html).
 
 - ### 2. Full Deconvolution
@@ -19,14 +19,15 @@
 
 ## Data Files:
 
-- ### kounkel_2019_apogee.csv
+### data/inputs
+
+- #### kounkel_2019_apogee.csv
     Original dataset containing stars from [Kounkel et al. 2019](https://ui.adsabs.harvard.edu/abs/2019AJ....157..196K/abstract), cross matched with stars from the Gaia EDR3 survey.
 
-- ### perseus_3d_cutout.fits
+- #### perseus_3d_cutout.fits
     Original Perseus dust data from [CITATION]().
 
-- ### ic348_kounkel_mask.fits / ngc1333_kounkel_mask.fits
-    Masks produced using the [glue](http://docs.glueviz.org/en/stable/). The full star dataset was overlayed on the perseus dust data and the stars in the group around each cluster were selected. These data sets were used to produce the individual IC 348 and NGC 1333 datasets in notebook #0.
+### data/outputs
 
 - ### ic348_apogee.csv / ngc1333_apogee.csv
     Datasets produced in notebook #0 using various cuts to the data. These will be used throughout the analysis as the NGC 1333 and IC 348 star data.
